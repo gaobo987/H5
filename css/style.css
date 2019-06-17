@@ -1,0 +1,461 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	list-style: none;
+	float: left;
+}
+
+.box {
+	width: 100%;
+}
+
+.top {
+	width: 80%;
+	height: 100px;
+	margin: auto;
+}
+
+.top-1 {
+	float: left;
+}
+
+.top-1 img {
+	width: 230px;
+	height: 100px;
+	float: left;
+}
+
+.top-1 {
+	font-size: 15px;
+	color: #F8A631;
+	height: 100px;
+	line-height: 100px;
+	font-weight: 600;
+}
+
+.top-2 {
+	float: right;
+}
+
+.top-2 {
+	font-size: 13px;
+	font-weight: 600;
+	margin-top: 30px;
+}
+
+.top-2 li img {
+	width: 20px;
+	height: 20px;
+}
+
+.top-2 li {
+	margin-right: 3px;
+}
+
+.top-2 li:nth-child(5) {
+	margin-right: 0px;
+}
+
+.center {
+	clear: both;
+}
+
+
+/*中间*/
+
+.center {
+	width: 100%;
+	height: 600px;
+	margin-top: -120px;
+	position: relative;
+}
+
+.mainmid {
+	/* width: 1000px; */
+	width: 99.6%;
+	height: 800px;
+	/* border: 1px solid black; */
+	margin: auto;
+}
+
+.fous {
+	/* width: 666px; */
+	width: 100%;
+	height: 600px;
+	margin: 150px auto;
+}
+
+.images {
+	/* width: 666px; */
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+	margin: 150px auto;
+}
+
+.images>ul {
+	width: 400%;
+	height: 600px;
+	list-style: none;
+	position: relative;
+}
+
+.images>ul>li {
+	float: left;
+	width: 25%;
+	height: 600px;
+}
+
+.images>ul>li>img {
+	width: 100%;
+	height: 600px;
+}
+
+.images>ul>.li1 {
+	width: 25%;
+	height: 600px;
+	;
+	background-image: url(../img/cent1_15.png);
+	position: relative;
+	background-size: 100% 100%;
+}
+
+.images>ul>.li2 {
+	width: 25%;
+	height: 600px;
+	background-image: url(../img/55265afa8b64c.jpg);
+	position: relative;
+	background-size: 100% 100%;
+}
+
+.images>ul>.li3 {
+	width: 25%;
+	height: 600px;
+	background-image: url(../img/550bba98cc09b.jpg);
+	position: relative;
+	background-size: 100% 100%;
+}
+
+.images>ul>.li4 {
+	width: 25%;
+	height: 600px;
+	height: 600px;
+	background-image: url(../img/yu2_03.png);
+	position: relative;
+	background-size: 100% 100%;
+}
+
+.imagess {
+	position: relative;
+	top: -200px;
+}
+
+.imagess>ul>.one {
+	background-color: aqua;
+}
+
+.imagess>ul>li {
+	float: left;
+	border-radius: 10px;
+	/*border:1px solid black;*/
+	background-color: white;
+	width: 80px;
+	padding: 8px;
+	margin-left: 10px;
+}
+
+.imagess>ul {
+	margin-top: 0px;
+	margin-left: 530px;
+}
+
+
+/*.center>img{
+	width: 100%;
+}*/
+
+.center-11>ul {
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	color: #1D7EC1;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.center-1 img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 99.9%;
+}
+
+.center-11 {
+	position: absolute;
+	top: 10px;
+	left: 163px;
+}
+
+.center-2 img {
+	position: absolute;
+	top: 593px;
+	left: 0px;
+	width: 99.9%;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+.center-11>ul>li:hover {
+	color: #F8A66D;
+	cursor: pointer;
+}
+
+
+.center-11>ul>li>a {
+	text-decoration: none;
+	color: #1D7EC1;
+}
+
+.center-11>ul>li>a:hover {
+	color: #F8A66D;
+	cursor: pointer;
+}
+
+
+/*中间2*/
+
+.center-a {
+	/*margin-top: 20px;*/
+	width: 1200px;
+	height: 297px;
+	/*border: 1px solid red;*/
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.center-a1,
+.center-a11,
+.center-a111 {
+	width: 270px;
+	height: 270px;
+	margin-top: 20px;
+	text-align: center;
+	margin-top: 4px;
+	padding-top: 20px;
+}
+
+.center-a1:hover {
+	background-color: #1AD9A9;
+	color: white;
+	/*background-color:#11AD9A9;*/
+}
+
+.center-a11:hover {
+	background-color: #7887F5;
+	color: white;
+}
+
+.center-a111:hover {
+	background-color: #FCCD1C;
+	color: white;
+}
+
+.p1 {
+	color: #6CACD5;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.p2 {
+	color: #6CACD5;
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+.p3 {
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+hr {
+	margin-top: 15px;
+	margin-bottom: 10px;
+	margin-left: 80px;
+	background-color: gray;
+}
+
+
+/*中3*/
+
+.center-b {
+	width: 1326px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.center-bb {
+	width: 100%;
+	background-color: #F3FBFE;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.center-b11 {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.center-b11 img {
+	margin-top: 10px;
+}
+
+
+/*zhong4*/
+
+.center-c {
+	width: 1200px;
+	margin: auto;
+	border: 1px solid darkgray;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+
+/*.a {
+	background: red;
+}
+
+.b {
+	background: green;
+}
+
+.c {
+	background: blue;
+}*/
+
+.box1 {
+	width: 1200px;
+	height: 150px;
+	/*border: #FF0000 1px solid;*/
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.tupian {
+	width: 3600px;
+	height: 150px;
+	/*border:1px solid red ;*/
+	position: absolute;
+	margin-left: 50px;
+}
+
+.tupian>li {
+	width: 1200px;
+	height: 150px;
+	/*border:1px solid red;*/
+	float: left;
+}
+
+.jian {
+	width: 1200px;
+	height: 70px;
+	/*border: 1px solid firebrick;*/
+	position: absolute;
+	top: 20px;
+	left: 0px;
+	display: none;
+}
+
+.jian>span {
+	width: 30px;
+	height: 70px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 70px;
+	/*background: black;*/
+	color: white;
+}
+
+.jian>.left {
+	position: absolute;
+	left: 0px;
+}
+
+.jian>.right {
+	position: absolute;
+	right: 0px;
+}
+
+
+/*底*/
+
+.boottom {
+	width: 100%;
+	background-color: #44B4DC;
+	background-image: url(../img/foot_bd.jpg);
+}
+
+.boottom1 ul {
+	width: 600px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	color: #1D7EC1;
+}
+
+.boottom1 {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 12px;
+	background-color: #7CCBE7;
+}
+
+.boottom211 {
+	height: 81px;
+	width: 180px;
+	font-size: 13px;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+}
+
+.boottom21 {
+	font-size: 12px;
+	color: white;
+	width: 200px;
+}
+
+.boottom3 {
+	width: 250px;
+	color: white;
+	font-size: 13px;
+}
+
+.boottom3 p {
+	margin-bottom: 10px;
+}
+
+.boottom2 {
+	width: 1200px;
+	padding-bottom: 40px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.boottom4 p {
+	color: white;
+	font-size: 12px;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,87 @@
+<<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" /> 
+	<title></title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<!--中间4-->
+			<div class="center-c">
+				<div class="box1">
+					<ul class="tupian">
+						<li class="a">
+							<div style="width: 1100px;display: flex;justify-content: space-between;">
+								<img src="img/cent4_52.png" />
+								<img src="img/cent4_54.png" />
+								<img src="img/cent4_57.png" />
+								<img src="img/cent4_59.png" />
+								<img src="img/cnet4_571.png" />
+							</div>
+						</li>
+						<li class="b">
+							<div style="width: 1100px;display: flex;justify-content: space-between;">
+								<img src="img/cent4_52.png" />
+								<img src="img/cent4_54.png" />
+								<img src="img/cent4_57.png" />
+								<img src="img/cent4_59.png" />
+								<img src="img/cnet4_571.png" />
+							</div>
+						</li>
+						<li class="c">
+							<div style="width: 1100px;display: flex;justify-content: space-between;">
+								<img src="img/cent4_52.png" />
+								<img src="img/cent4_54.png" />
+								<img src="img/cent4_57.png" />
+								<img src="img/cent4_59.png" />
+								<img src="img/cnet4_571.png" />
+							</div>
+						</li>
+					</ul>
+					<div class="jian">
+						<span class="left"><img src="img/one_55.png"></span>
+						<span class="right"><img src="img/one_58.png"></span>
+					</div>
+				</div>
+			</div>
+
+</body>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script>
+		$(function() {
+			var index = 0;
+			//获取li的高度
+			var width = $('.images>ul>li').width();
+			// 数字转换
+			var move = null;
+			move = function() {
+				// 图片下标图片转变
+				index = index > 3 ? 0 : index;
+				$('.images>ul').stop().animate({
+					left: -width * index
+				}, 1000);
+				$('.imagess>ul>li').eq(index).addClass('one').siblings().removeClass('one')
+			};
+			var time = null;
+			time = setInterval(function() {
+				index++;
+				move();
+			}, 3000);
+			// 让大盒子停止
+			$('.images').hover(function() {
+				clearInterval(time);
+			}, function() {
+				time = setInterval(function() {
+					index++;
+					move();
+				}, 3000);
+			});
+			// 数字点到那个是哪个放在1234跳转
+			$('.imagess>ul>li').on('mouseenter', function() {
+				index = $(this).index();
+				move();
+			});
+		})
+	</script>
+</html>
